@@ -32,14 +32,20 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              <span id="time"></span> <span id="description">scattered clouds</span>
+              <span id="time"></span>
+              <span id="description">scattered clouds</span>
               <br />
               Humidity: <strong id="humidity"> </strong>, wind:
               <strong id="wind-speed">/h</strong>
             </p>
           </div>
           <div class="temperature-container">
-            <div class="weather-app-icon">🌤</div>
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                class="weather-app-icon"
+              />
+            </div>
             <div class="weather-app-temperature" id="temperature"></div>
             <div class="weather-app-unit">°C</div>
           </div>
